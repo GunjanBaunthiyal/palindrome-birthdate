@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&family=Mukta:wght@300&family=Noto+Sans:ital,wght@0,400;0,700;1,400&family=Overpass:ital,wght@0,300;1,400&display=swap');
+
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #7c3aed;
+}
+
+body {
+    font-family: 'Mukta', sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin:2rem;
+}
+main {
+    display: block;
+    text-align: center;
+}
+.input-label {
+    display: block;
+    font-size: large;
+    font-weight: 800;
+}
+.input {
+    font-size: 18px;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.3rem;
+    width: 100%;
+    max-width: 258px;
+}
+
+#show-btn {
+    background: var(--primary-color);
+    border: none;
+    color: #fff;
+    padding: 0.7rem 0.9rem;
+    border-radius: 0.3rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+}
+
+p {
+    display: inline-block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/*#output{
+    font-size: small;
+}*/
