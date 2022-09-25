@@ -1,18 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&family=Mukta:wght@300&family=Noto+Sans:ital,wght@0,400;0,700;1,400&family=Overpass:ital,wght@0,300;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
 
 
 * {
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
+
 :root {
     --primary-color: #7c3aed;
 }
 
 body {
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    /*background-image: linear-gradient(#FAB9B1 0%, #8BC7C6 45%, #65689C 100%);*/
 }
-
+a{
+    text-decoration: none;
+}
 h1{
     text-align: center;
     margin:2rem;
@@ -26,6 +31,7 @@ main {
     font-size: large;
     font-weight: 800;
 }
+
 .input {
     font-size: 18px;
     outline: #fff;
@@ -42,7 +48,7 @@ main {
     border: none;
     color: #fff;
     padding: 0.7rem 0.9rem;
-    border-radius: 0.3rem;
+    border-radius: 0.4rem;
     font-size: large;
     cursor: pointer;
     outline: #fff;
