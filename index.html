@@ -8,13 +8,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Palindrome Birthday!</h1>
     <main>
-        <label for="BirthDate" class="input-label">Enter your birth date:</label>
-        <input type="date" id="input-bday" class="input">
-        <button id="show-btn">Show</button>
+        <div id="box">
+            <h2>Is your Birth date 🎂 a Palindrome ? </h2>
+            <input type="date" id="input-bday">
+            <input type="submit" id="show-btn" value="CHECK PALINDROME">
+            <strong><p id="output">Result will appear here
+            </p></strong>
+        </div>
     </main>
-    <p id="output"></p>
     <script src="script.js"></script>
 </body>
 </html>

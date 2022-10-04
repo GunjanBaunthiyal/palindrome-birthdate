@@ -1,69 +1,65 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
 
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 :root {
-    --primary-color: #7c3aed;
+    --primary-color:  #753a88;
 }
 
 body {
-    font-family: 'Work Sans', sans-serif;
-    /*background-image: linear-gradient(#FAB9B1 0%, #8BC7C6 45%, #65689C 100%);*/
+    font-family: 'Work Sans', sans-serif; 
 }
-a{
-    text-decoration: none;
-}
-h1{
-    text-align: center;
-    margin:2rem;
-}
-main {
+#box{
+    width: 550px;
+    background-color: whitesmoke;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin-left: 400px;
+    border-radius: 5px;
     display: block;
-    text-align: center;
+    height:350px;
+    align-self: center;
 }
-.input-label {
+input{
+    width: 90%;
     display: block;
-    font-size: large;
-    font-weight: 800;
-}
-
-.input {
-    font-size: 18px;
-    outline: #fff;
-    padding: 0.6rem 1rem;
-    margin: 1rem;
-    border: 2px solid var(--primary-color);
-    border-radius: 0.3rem;
-    width: 100%;
-    max-width: 258px;
-}
-
-#show-btn {
-    background: var(--primary-color);
-    border: none;
-    color: #fff;
-    padding: 0.7rem 0.9rem;
-    border-radius: 0.4rem;
-    font-size: large;
-    cursor: pointer;
-    outline: #fff;
+    height: 40px;
     margin: auto;
-    display: block;
+    margin-bottom: 20px;
+    border: 1px solid #8080809e;
+    border-radius: 5px;
+    padding: 0px 10px;
+    transition: 0.3s ease-in-out box-shadow;
+
+
+}
+input:focus{
+    outline: none;
+    border: 1px solid var(--primary-color);
+}
+input[type=submit]
+{
+   
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease-in background;
 }
 
-p {
-    display: inline-block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+
+input:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-/*#output{
-    font-size: small;
-}*/
+
+h2{
+    text-align: center;
+    margin: 0px 20px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+#box p{
+    text-align: center;
+    color: rgb(144, 136, 136);
+    font-family: sans-serif;
+    margin: 0px 10px;
+    margin-bottom: 40px;
+}
